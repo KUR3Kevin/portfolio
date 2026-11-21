@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KUR3Kevin — Portfolio</title>
+  <meta name="description" content="Portfolio: GitHub projects, AI agent skills for Claude, Codex and Hermes, and generated media." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top" id="logo"></a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#media">Media</a>
+      <a id="gh-link" class="btn" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">// portfolio</p>
+      <h1 id="name"></h1>
+      <p class="tagline" id="tagline"></p>
+      <p class="about" id="about"></p>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section id="projects">
+      <div class="section-head"><h2>Projects</h2><span class="sub">from GitHub</span></div>
+      <div class="grid" id="repo-grid"></div>
+    </section>
+
+    <section id="skills">
+      <div class="section-head"><h2>Agent Skills</h2><span class="sub">Claude · Codex · Hermes</span></div>
+      <div class="filters" id="skill-filters"></div>
+      <div class="grid" id="skill-grid"></div>
+    </section>
+
+    <section id="media">
+      <div class="section-head"><h2>Media</h2><span class="sub">generated images &amp; video</span></div>
+      <div class="gallery" id="media-grid"></div>
+    </section>
+  </main>
+
+  <footer><span id="foot"></span></footer>
+
+  <div class="lightbox" id="lightbox" hidden></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
