@@ -1,5 +1,7 @@
 # Portfolio
 
+**Live:** https://kur3kevin-portfolio.netlify.app (also https://kur3kevin.github.io/portfolio/)
+
 Personal portfolio: GitHub projects, AI agent skills (Claude, Codex, Hermes), and generated images/video.
 
 Plain HTML/CSS/JS — no build step. Open `index.html` in a browser, or serve it:
@@ -18,5 +20,6 @@ Everything is in **`data.js`**:
 
 ## Hosting
 
+Netlify auto-deploys every push to `main`. GitHub Pages is also enabled:
 Enable GitHub Pages (Settings → Pages → Deploy from branch `main`, folder `/`) and the site goes live at
 `https://<username>.github.io/portfolio/`.
